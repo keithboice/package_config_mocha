@@ -1,1 +1,29 @@
-
+allow-uncaught: false
+async-only: false
+bail: true
+check-leaks: true
+color: true
+delay: false
+diff: true
+exit: true
+extension:
+  - "js"
+forbid-only: false
+forbid-pending: false
+full-trace: false
+growl: false
+ignore:
+  - ".github"
+  - ".husky"
+  - "dist"
+  - "lib"
+  - "node_modules"
+inline-diffs: false
+parallel: true
+recursive: true
+require: "@babel/register"
+retries: 0
+spec: "src/**/*.spec.js"
+timeout: 0
+trace-warnings: true
+watch: false
