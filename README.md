@@ -1,11 +1,11 @@
-# package_config_%name%
+# package_config_mocha
 
 ## Usage
 
 **Install**:
 
 ```bash
-$ npm i %name%
+$ npm i package_config_mocha
 ```
 
 **Edit `package.json`**:
@@ -13,6 +13,6 @@ $ npm i %name%
 ```jsonc
 {
   // ...
-  "%external%": "%name%"
+  "mocha": "package_config_mocha"
 }
 ```
