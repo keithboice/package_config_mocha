@@ -6,13 +6,21 @@
   "scripts": {
     "test": "test"
   },
-  "keywords": [
-    "mocha"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keithboice/package_config_mocha.git"
   },
+  "keywords": [
+    "mocha", "chai"
+  ],
   "author": "Keith Boice",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keithboice/package_config_mocha/issues"
+  },
+  "homepage": "https://github.com/keithboice/package_config_mocha#readme",
+  "peerDependencies": {
+    "chai": "4.x",
+    "mocha": "8.x"
+  }
 }
