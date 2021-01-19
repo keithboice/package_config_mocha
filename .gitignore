@@ -1,5 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
+.idea/
 /.idea
 cmake-build-*/
 *.iws
@@ -74,5 +75,3 @@ dist
 .pnp.*
 node_modules
 jspm_packages
-/lib/
-lib
