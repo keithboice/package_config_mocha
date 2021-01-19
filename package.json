@@ -1,7 +1,6 @@
-
 {
   "name": "package_config_mocha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "KB mocha config",
   "main": "index.yml",
   "scripts": {
@@ -10,6 +9,10 @@
   "keywords": [
     "mocha"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithboice/package_config_mocha.git"
+  },
   "author": "Keith Boice",
   "license": "ISC"
 }
